@@ -1,0 +1,23 @@
+@import 'navbar';
+@import 'mainsection';
+@import 'bottomsection';
+@import '_singleArtist.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root{
+    --primary-clr:#fff;
+    --secondary-clr:#88888866;
+    --tertiary-color: #000000;
+    --ff-primary:'Roboto';
+
+}
+body{
+    margin: 0;
+    top: 0%;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: linear-gradient(to top, #1a1a1a, #131313, #121212, #181818, #1d1d1d);
+    color: var(--primary-clr);
+    font-family: var(--ff-primary);
+    overflow: hidden;
+    }
